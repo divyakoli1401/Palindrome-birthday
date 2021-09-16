@@ -1,0 +1,34 @@
+:root{
+  --primary-color : #003566;
+  --secondary-color : #c0fdff; 
+}
+
+.container{
+  width: 50%;
+  margin: auto;
+}
+
+h1{
+  text-align: center;
+}
+
+body{
+  background-color: var(--primary-color);
+  color: #F1F2EB;
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+input{
+  display: block;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  padding: 0.5rem;
+}
+button{
+  background-color: var(--secondary-color);
+  padding: 0.5rem ;
+  border-radius:0.5rem; 
+  margin: auto;
+  display: block;
+}
